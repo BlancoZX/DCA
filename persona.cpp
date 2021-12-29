@@ -7,13 +7,15 @@ int main(void)
 {
 	// create a new person named bob
 	Person bob;
-	Person b1;
+	Person b;
 	// define bob
 	bob.setName("Bob");
-	bob.setAges(30);
-	bob.setNames("Ruben");
+	bob.setAge(30);
+	bob.setName("Ruben");
 	
-	
+	b.setName("Alex");
+	b.setAge(35);
+
 	// display bob's age
 	std::cout << bob.name << " is " << bob.age << " years old." << std::endl;
 }
