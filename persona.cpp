@@ -13,7 +13,7 @@ int main(void)
 	bob.setAge(30);
 	bob.setName("Ruben");
 	
-	b.setName("Alexies");
+	b.setName("Maria");
 	b.setAge(35);
 
 	// display bob's age
