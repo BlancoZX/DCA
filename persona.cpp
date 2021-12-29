@@ -14,7 +14,7 @@ int main(void)
 	bob.setName("Ruben");
 	
 	b.setName("Maria");
-	b.setAge(35);
+	b.setAge(40);
 
 	// display bob's age
 	std::cout << bob.name << " is " << bob.age << " years old." << std::endl;
