@@ -10,7 +10,7 @@ int main(void)
 
 	// define bob
 	bob.setName("Bob");
-	bob.setAge(27);
+	bob.setAges(30);
 
 	// display bob's age
 	std::cout << bob.name << " is " << bob.age << " years old." << std::endl;
